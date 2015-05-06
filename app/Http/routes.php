@@ -13,6 +13,10 @@
 
 Route::get('/', 'WelcomeController@index');
 
+Route::get('forge', function() {
+ return "forge";
+});
+
 Route::get('home', 'HomeController@index');
 
 Route::controllers([
