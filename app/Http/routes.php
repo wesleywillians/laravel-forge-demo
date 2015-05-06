@@ -14,7 +14,7 @@
 Route::get('/', 'WelcomeController@index');
 
 Route::get('forge', function() {
- return "forge";
+ return "forge 2";
 });
 
 Route::get('home', 'HomeController@index');
